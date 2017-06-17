@@ -7,6 +7,7 @@ RUN apt-get update
 #
 # Install and Verify version of Node.js and NPM
 # 
+
 RUN apt-get -y install nodejs
 RUN nodejs --version
 RUN apt-get -y install npm
