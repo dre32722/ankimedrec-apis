@@ -16,9 +16,9 @@ RUN npm --version
 #
 # Install and Verify version of MongoDB Server
 # 
-RUN apt-get -y install mongodb
-RUN mongod --version
-RUN /etc/init.d/mongodb restart
+#RUN apt-get -y install mongodb
+#RUN mongod --version
+#RUN /etc/init.d/mongodb restart
 # 
 #
 # Install and Verify version of git
