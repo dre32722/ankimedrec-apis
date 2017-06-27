@@ -2,7 +2,7 @@
 # Ubuntu image is large
 #
 # In order to thin this down I decided to use
-# alpine image 
+# alpine image - approx 73 MB versus 750 MB
 FROM mhart/alpine-node:latest
 
 #
